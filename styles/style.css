@@ -6,8 +6,92 @@
     "wdth" 100;
 }
 
-*{
-    margin: 0 160px;
-    padding: 0;
+
+/* share style */
+
+.btn-primary{
+    border-radius: 5px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    text-align: left;
+    padding: 11px 22px 11px 22px;
+}
+
+.section-title{
+    font-size: 30px;
+    font-family: Fira Sans;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+.section-description{
+    font-family: Fira Sans;
+    font-size: 13px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+
+
+.banner{
+    display: flex;
+    margin: 0 107px;
+    padding: 53px 67px 53px 67px;
+    height: 375px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    gap: 42px;
+}
+
+.banner-content{
+    max-width: 622px;
+    font-family: Fira Sans;
+    
+}
+
+.banner-subtitle{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+}
+
+.banner-title{
+    color: rgb(14, 14, 14);
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: left;
+    margin: 16px 0px;
+}
+
+.banner-profile{
+    width: 474px;
+    height: 329px;
+    left: 157%;
+
+}
+
+/* main style */
+main{
+    /* max-width: 1140px; */
+    
+}
+
+
+/* vision of future section */
+
+.visions{
+    height: 512px;
+    margin: 53px 107px;
+    font-family: Fira Sans;
+}
+
+.vision-container{
+    display: flex;
 }
 
