@@ -7,29 +7,11 @@
 }
 
 
-
 body{
     margin: 57px 107px;
 }
 
 /* share style */
-
-.bg-one{
-    background: rgba(84, 144, 245, 0.2);
-}
-
-.bg-two{
-    background: rgb(198, 228, 214);
-}
-.bg-three{
-    background: rgb(247, 235, 207);
-}
-.space{
-    margin-bottom: 32px;
-}
-
-
-
 .btn-primary{
     border-radius: 5px;
     background: rgb(0, 106, 80);
@@ -41,6 +23,79 @@ body{
     text-align: left;
     padding: 11px 22px 11px 22px;
 }
+
+.btn-primary:hover{
+    background-color: #0056b3;
+    transition: 3s;
+}
+
+.bg-one{
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.bg-two{
+    background: rgb(198, 228, 214);
+}
+.bg-three{
+    background: rgb(247, 235, 207);
+}
+
+.btn-two{
+   background: #5490F5;
+   border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    text-align: left;
+    padding: 11px 22px 11px 22px;
+}
+.btn-two:hover{
+    background-color: whitesmoke;
+    color: #0E0E0E;
+    transition: 3s;
+}
+
+.btn-three{
+    background: #09A15C;
+    border-radius: 5px;
+     color: rgb(255, 255, 255);
+     font-family: Fira Sans;
+     font-size: 12px;
+     font-weight: 600;
+     line-height: 14px;
+     text-align: left;
+     padding: 11px 22px 11px 22px;
+ }
+ .btn-three:hover{
+     background-color: whitesmoke;
+     color: #0E0E0E;
+     transition: 3s;
+ }
+.btn-four{
+    background: #FFC239;
+    border-radius: 5px;
+     color: rgb(255, 255, 255);
+     font-family: Fira Sans;
+     font-size: 12px;
+     font-weight: 600;
+     line-height: 14px;
+     text-align: left;
+     padding: 11px 22px 11px 22px;
+ }
+ .btn-four:hover{
+     background-color: whitesmoke;
+     color: #0E0E0E;
+     transition: 3s;
+ }
+
+.space{
+    margin-bottom: 32px;
+}
+
+
+
 
 .title{
     font-size: 32px;
@@ -117,38 +172,72 @@ main section{
     gap: 24px;
 }
 
+.vision-title{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
 .vision{
     padding: 32px;
     border-radius: 5px;
     box-shadow: 0cap 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+.vision:hover{
+    background-color: whitesmoke;
+    transition: 3s;
+}
+
 .quotation{
+    display: flex;
+    flex-direction: column;
     height: 180px;
     margin: 32px 0;
     border: 1px solid rgba(14, 14, 14, 0.15);
     box-shadow: 0cap 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 20px;
-    
+}
+
+.quotation:hover{
+    background-color: beige;
+    transition: 3s;
 }
 
 .quote-bg{
     background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
-    background-position: top left;
-    
-    
+    background-position: top left; 
+    position: absolute;
+}
+
+.inner{
+     height: 160;
+}
+.quote{
+    text-align: justify;
+    padding-right: 130px;
 }
 
 .subtitle{
-
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    
 }
 
 /* news section */
 
 .news-section{
     font-family: Fira Sans;
-    margin-top: 280px
+    margin-top: 300px
 }
 
 
@@ -156,6 +245,20 @@ main section{
     display: flex;
     flex-direction: column;
     gap: 32px;
+}
+
+.news-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+}
+
+.news-letter:hover{
+    background-color: beige;
+    transition: 3s;
 }
 
 
@@ -204,7 +307,11 @@ main section{
     border-radius: 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
 
+.donate-box:hover{
+    background-color: beige;
+    transition: 3s;
 }
 
 .taka{
@@ -218,17 +325,18 @@ main section{
 .amount{
     display: flex;
     flex-direction: column;
-    height: 30px;
-    width: 780px;
-    margin: 40px auto;
-    padding: 20px 40px 20px 40px;
-    display: flex;
+    align-self: center;
+    justify-content: center;
     align-items: center;
-    gap: 48px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 40px auto;
+    gap: 30px;
 }
 
+.send-amount{
+    width: 850px;
+    height: 42px;
+    text-align: center;
+}
 
 .footer-section{
     height: 395;
@@ -264,6 +372,11 @@ main section{
     padding: 11px 22px 11px 22px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+.submit:hover{
+    background-color: #0063b3;
+    transition: 3s;
 }
 
 
