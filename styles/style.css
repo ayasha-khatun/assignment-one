@@ -44,6 +44,7 @@ body{
 
 .title{
     font-size: 32px;
+    line-height: 24px;
     font-family: Fira Sans;
     font-weight: bold;
     color: #0E0E0E;
@@ -56,13 +57,14 @@ body{
 }
 
 
+/* banner section */
 
 .banner{
     display: flex;
     
     padding: 53px 67px 53px 67px;
     height: 375px;
-    border-radius: 5px;
+    border-radius: 24px;
     background: rgb(198, 228, 214);
     gap: 42px;
 }
@@ -121,7 +123,34 @@ main section{
     box-shadow: 0cap 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+.quotation{
+    height: 180px;
+    margin: 32px 0;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    box-shadow: 0cap 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    
+}
+
+.quote-bg{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    
+    
+}
+
+.subtitle{
+
+}
+
 /* news section */
+
+.news-section{
+    font-family: Fira Sans;
+    margin-top: 280px
+}
+
 
 .news-container{
     display: flex;
@@ -129,9 +158,6 @@ main section{
     gap: 32px;
 }
 
-.news-section{
-    font-family: Fira Sans;
-}
 
 .news-letter{
     display: flex;
@@ -190,25 +216,58 @@ main section{
 
 
 .amount{
+    display: flex;
+    flex-direction: column;
     height: 30px;
     width: 780px;
-    margin: 32px auto;
+    margin: 40px auto;
     padding: 20px 40px 20px 40px;
     display: flex;
     align-items: center;
-    
+    gap: 48px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.amount::placeholder{
-    /* padding: 0 120px; */
+
+.footer-section{
+    height: 395;
+    margin: 80px 0px;
+    padding: 60px 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 24px;
+
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.email{
+    width: 402px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.submit{
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    text-align: left;
+    padding: 11px 22px 11px 22px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 
-.btn{
-   text-align: center;
-}
+
 
 
 
