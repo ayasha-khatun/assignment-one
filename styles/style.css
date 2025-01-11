@@ -28,6 +28,8 @@ body{
     margin-bottom: 32px;
 }
 
+
+
 .btn-primary{
     border-radius: 5px;
     background: rgb(0, 106, 80);
@@ -40,8 +42,8 @@ body{
     padding: 11px 22px 11px 22px;
 }
 
-.section-title{
-    font-size: 30px;
+.title{
+    font-size: 32px;
     font-family: Fira Sans;
     font-weight: bold;
     color: #0E0E0E;
@@ -136,6 +138,7 @@ main section{
     justify-content: space-between;
     gap: 32px;
     padding: 32px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -149,6 +152,64 @@ main section{
     display: flex;
     gap: 12px;
 }
+
+/* donate section */
+
+.donate{
+    padding: 0 58px;
+    font-family: Fira Sans;
+}
+
+.donate-title{
+    text-align: center;
+    
+}
+
+.donate-container{
+    display: flex;
+    gap: 24px; 
+}
+
+.donate-box{
+    width: 240px;
+    height: 128px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.taka{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    padding: 18px;
+}
+
+
+.amount{
+    height: 30px;
+    width: 780px;
+    margin: 32px auto;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    align-items: center;
+    
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.amount::placeholder{
+    /* padding: 0 120px; */
+}
+
+
+.btn{
+   text-align: center;
+}
+
 
 
 
